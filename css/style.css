@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+/* common class */
+
+.container{
+width: 1200px;
+margin:0 auto;
+}
+
+
+.clearfix::after{
+  content: "";
+  display:table;
+  clear: both;
+}
+.left{
+  float: left;
+}
+
+
+.clearfix::after{
+  content: "";
+  display:table;
+  clear: both;
+}
+.right{
+  float: right;
+}
+
+
+header{
+  height: 500px;
+  min-width: 1200px;
+  background-image: url("../img/jumbotron.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+.navbarup.clearfix,.navbardown.clearfix{
+  width: 100%;
+  background-color: blue;
+}
+
+.navbar.left{
+  border: 1px solid black;
+}
+
+.navbar>ul>li{
+  display: inline;
+  padding: 10px;
+}

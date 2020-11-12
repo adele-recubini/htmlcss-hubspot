@@ -43,9 +43,12 @@ margin:0 auto;
   background-color: white;
 }
 
+h1, h4, p{
+  font-family: 'Roboto', sans-serif;
+}
 
 header{
-  height: 500px;
+  height: 600px;
   min-width: 1200px;
   background-image: url("../img/jumbotron.png");
   background-size: 60%;
@@ -54,11 +57,36 @@ header{
   margin-top: 20px;
 }
 
-
 .navbar.right{
 margin: 10px 10px;
 }
 
 .navbar.left{
   margin-top: 10px;
+}
+
+.jumbotron{
+  width: 500px;
+  height: 350px;
+  position: relative;
+  margin-left: 40px;
+  padding: 40px 0;
+
+}
+
+h1, h4, .gethub{
+  margin-left: 40px;
+  padding: 15px;
+}
+.gethub{
+  background-color: orange;
+}
+
+.slogan{
+  border: 1px solid black;
+  text-align: center;
+  height: 300px;        !da togliere, padding tra gli elementi!
+}
+.triangolo{
+  height: 100px;
 }

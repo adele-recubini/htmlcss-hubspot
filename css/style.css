@@ -140,14 +140,24 @@ h1, h4, .gethub{
   width:80%;
   margin:0 auto;
   margin-top: 30px;
+ 
+
+
 }
  .box3, .box4, .box5{
    width: 33%;
   height: 400px;
   text-align: center;
   background-color: white;
+  border: 1px solid black;
+
+
  }
  .box3.left>ul>li{
    display:block;
    padding:0 0;
+ }
+ .box4{
+   padding: 0 20px;
+
  }

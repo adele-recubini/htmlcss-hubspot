@@ -83,10 +83,55 @@ h1, h4, .gethub{
 }
 
 .slogan{
-  border: 1px solid black;
   text-align: center;
-  height: 300px;        !da togliere, padding tra gli elementi!
 }
-.triangolo{
+.triangolo, .libro{
   height: 100px;
+}
+.triangolo, h3{
+  margin-top:15px;
+}
+
+.sfondoazzurro{
+  width: 100%;
+  margin:0 auto;
+  height: 800px;
+  background-color:#FFFACD;
+}
+
+.section{
+  width: 80%;
+  height: 200px;
+  margin-top: 20px;
+  margin:0 auto;
+  position: relative;
+  margin-top: 30px;
+}
+.box1,.box2{
+  display:inline-block;
+}
+.box1{
+  width:30%;
+  text-align: left;
+}
+
+.box2{
+  width:60%;
+  position: absolute;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: left;
+}
+.learnmore{
+  width:150px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 4px;
+}
+.box2, ul>li{
+  display: inline;
+}
+.box2, h2, p, ul,li{
+  padding: 10px;
+
 }

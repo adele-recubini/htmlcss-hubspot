@@ -44,8 +44,14 @@ margin:0 auto;
 
 .navbarup.clearfix, .navbardown.clearfix{
   width: 90%;
-  background-color: white;
   margin:0 auto;
+}
+.navbarup.clearfix{
+  background-color: lightblue;
+}
+
+.navbardown.clearfix{
+  background-color: white;
 }
 
 h1, h4, p{
@@ -66,6 +72,11 @@ header{
 
 
 .color-navbar{
+  width: 1200px;
+  background-color:lightblue;
+}
+
+.color-navbar2{
   width: 1200px;
   background-color:white;
 }
@@ -166,8 +177,10 @@ h1, h4, .gethub{
  .box4 ul li{
    display: block;
    padding:0 0;
+   text-align: left;
  }
  .box5 ul li{
    display: block;
    padding:0 0;
+   text-align: left;
  }

@@ -69,8 +69,6 @@ header{
   background-size: cover;
   margin-top: 20px;
 }
-
-
 .color-navbar{
   width: 1200px;
   background-color:lightblue;
@@ -114,7 +112,7 @@ h1, h4, .gethub{
   margin-top:15px;
 }
 
-.sfondoazzurro{
+.sfondogiallo{
   width: 100%;
   margin:0 auto;
   height: 900px;
@@ -170,16 +168,7 @@ h1, h4, .gethub{
   text-align: center;
   padding: 0 20px;
  }
- .box3 ul li{
-   display: block;
-   padding:0 0;
- }
- .box4 ul li{
-   display: block;
-   padding:0 0;
-   text-align: left;
- }
- .box5 ul li{
+ .box3 ul li, .box4 ul li, .box5 ul li{
    display: block;
    padding:0 0;
    text-align: left;

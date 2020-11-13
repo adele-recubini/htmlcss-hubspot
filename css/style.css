@@ -64,6 +64,12 @@ header{
   margin-top: 20px;
 }
 
+
+.color-navbar{
+  width: 1200px;
+  background-color:white;
+}
+
 .navbar.right{
 margin: 10px 10px;
 }
@@ -76,9 +82,7 @@ margin: 10px 10px;
   width: 500px;
   height: 350px;
   position: relative;
-
   padding: 40px 0;
-
 }
 
 h1, h4, .gethub{
@@ -153,10 +157,17 @@ h1, h4, .gethub{
    width: 33%;
   height: 400px;
   text-align: center;
-
   padding: 0 20px;
  }
- .box3.left>ul>li{
-   display:block;
+ .box3 ul li{
+   display: block;
+   padding:0 0;
+ }
+ .box4 ul li{
+   display: block;
+   padding:0 0;
+ }
+ .box5 ul li{
+   display: block;
    padding:0 0;
  }

@@ -104,6 +104,7 @@ h1, h4, .gethub{
 
 .slogan{
   text-align: center;
+
 }
 .triangolo, .libro{
   height: 100px;
@@ -115,7 +116,6 @@ h1, h4, .gethub{
 .sfondogiallo{
   width: 100%;
   margin:0 auto;
-  height: 900px;
   background-color:#FFFACD;
 }
 
@@ -173,26 +173,127 @@ h1, h4, .gethub{
    padding:0 0;
    text-align: left;
  }
+
  .section3{
-   background-color:lightblue;
-   border: 1px solid black;
+  width: 80%;
+  height: 200px;
+   margin: 10px auto;
  }
+
+
+ .color-section3-4{
+   background-color: lightblue;
+ }
+
+ /* inizio section 4 */
  .section4{
    width:80%;
+   height: 500px;
    margin:0 auto;
-   margin-top: 30px;
  }
- .box6, .box7, .box8, .box9, .box10{
-   width: 22%;
-  height: 200px;
+ .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13{
+   width: 18%;
+  height: 250px;
   text-align: center;
-  padding: 10px 0;
-
+  padding: 10px;
+  margin-left: 35px;
   }
+
+  .box7, .box11{
+  border-left:1px solid black;
+  }
+
+  .box8, .box12{
+    border-right:1px solid black;
+  }
+  .box6, .box7, .box8, .box9{
+    border-bottom: 1px solid black;
+  }
+
   .mano{
     height: 30px;
   }
   .number{
     display: block;
     padding: 25px;
+    font-size: 25px;
   }
+
+  /* end section 4 */
+
+  /* inizio section 5 */
+
+  .section5{
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+    margin:0 auto;
+    position: relative;
+    margin-top: 30px;
+    background-color: #F8F8FF
+  }
+  .box1,.box2{
+    display:inline-block;
+  }
+  .box1{
+    width:30%;
+   text-align: center;
+  }
+
+  .box2{
+    width:60%;
+    position: absolute;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .section5 .box1{
+    text-align: left;
+    padding:20px 20px;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+  .section5 .box2{
+    padding:20px 20px;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+/* end section 5 */
+
+/* inizio section 6 */
+  .section6{
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+    margin:0 auto;
+    position: relative;
+    margin-top: 30px;
+    background-color: #F8F8FF
+  }
+  .box1,.box2{
+    display:inline-block;
+  }
+  .box1{
+    width:30%;
+   text-align: center;
+  }
+
+  .box2{
+    width:60%;
+    position: absolute;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .section6 .box1{
+    text-align: left;
+    padding:20px 20px;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+  .section6 .box2{
+    padding:20px 20px;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+  /* end section 6 */

@@ -281,9 +281,10 @@ h1, h4, .gethub{
   .box2{
     width:60%;
     position: absolute;
-    margin-right: 0;
-    margin-top: 0;
-  }
+    margin-top: -80px;
+    margin-left: 300px;
+ }
+
 
   .section6 .box1{
     text-align: left;
@@ -291,9 +292,21 @@ h1, h4, .gethub{
     margin: 10px 10px;
     font-size: 20px;
   }
-  .section6 .box2{
+  /* .section6 .box2{
     padding:20px 20px;
     margin: 10px 10px;
     font-size: 20px;
-  }
+  } */
   /* end section 6 */
+
+  /* giumbatron2 */
+  .jumbotron2{
+    width: 500px;
+    height: 350px;
+    padding: 40px 0;
+  }
+  /* fine giumbatron2 */
+
+  .woman{
+    height: 400px;
+  }

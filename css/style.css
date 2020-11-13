@@ -177,3 +177,22 @@ h1, h4, .gethub{
    background-color:lightblue;
    border: 1px solid black;
  }
+ .section4{
+   width:80%;
+   margin:0 auto;
+   margin-top: 30px;
+ }
+ .box6, .box7, .box8, .box9, .box10{
+   width: 22%;
+  height: 200px;
+  text-align: center;
+  padding: 10px 0;
+
+  }
+  .mano{
+    height: 30px;
+  }
+  .number{
+    display: block;
+    padding: 25px;
+  }

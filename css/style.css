@@ -181,8 +181,23 @@ h1, h4, .gethub{
   height: 200px;
    margin: 10px auto;
  }
+ .section3 .slogan h3{
+   margin-top:0px;
+   padding-top:15px;
+ }
 
+  .section3 .slogan:first-child h3{
+   font-size: 25px;
+   color: white;
+ }
+ .section3 .slogan:last-child p{
+  font-size: 15px;
+  color: white;
+}
 
+.section4:last-child p, .number{
+color:white;
+}
  .color-section3-4{
    background-color: lightblue;
  }
@@ -193,6 +208,9 @@ h1, h4, .gethub{
    height: 500px;
    margin:0 auto;
  }
+
+
+
  .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13{
    width: 18%;
   height: 200px;
@@ -329,14 +347,7 @@ h1, h4, .gethub{
   padding:20px 20px;
   }
 
-  .colonna1 ul li{
-    display: block;
-  }
-  .colonna2 ul li{
-    display: block;
-  }
-
-  .colonna3 ul li{
+  .colonna1 ul li, .colonna2 ul li, .colonna3 ul li {
     display: block;
   }
 

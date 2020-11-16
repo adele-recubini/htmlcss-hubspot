@@ -43,7 +43,7 @@ margin:0 auto;
 
 
 .navbarup.clearfix, .navbardown.clearfix{
-  width: 90%;
+  width: 70%;
   margin:0 auto;
 }
 .navbarup.clearfix{
@@ -94,16 +94,15 @@ margin: 10px 10px;
 }
 
 .jumbotron{
-  width: 500px;
+  width: 450px;
   height: 350px;
   position: relative;
   padding: 40px 0;
-  margin:50px 50px;
+  margin:0px 150px;
 }
 .jumbotron, h1, h4{
   padding:15px 20px;
 }
-
 
 .gethub{
   background-color: orange;
@@ -174,10 +173,10 @@ width:30%;
   padding: 10px;
 }
 
-.linea{
+.box2 hr{
+width: 250px;
+margin-top: 15px;
 float: right;
-width: 300px;
-margin-top: -20px;
 }
 
 .section2{
